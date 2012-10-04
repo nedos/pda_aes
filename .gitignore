@@ -1,0 +1,7 @@
+*.o
+version.c
+pda_aes.elf
+pda_aes.hex
+pda_aes.map
+*~
+*.swp
