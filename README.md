@@ -25,14 +25,14 @@ Macros
 
 Additionally there are a couple of macros:
 
-    DELAY
+    DELAY=XXX
 
-Specifies the delay in milliseconds between consecutive computations.
+Specifies a delay of XXX milliseconds between consecutive computations.
 
-    STARTUP
+    STARTUP=XXX
 
-Specifies a startup delay before the initial computation.
+Specifies a startup delay of XXX milliseconds before the initial computation.
 
-    ROUNDS
+    ROUNDS=XXX
 
-Specifies the amount of rounds per plaintext before the plaintext byte is incremented. The default is 0, which means the plaintext byte is stored in NVM and incremented on startup, meaning the chip can simply be reset to increment the plaintext byte.
+Specifies the amount of rounds (XXX) per plaintext before the plaintext byte is incremented. The default is 0, which means the plaintext byte is stored in NVM and incremented on startup, meaning the chip can simply be reset to increment the plaintext byte.
